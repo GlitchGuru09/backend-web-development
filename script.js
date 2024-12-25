@@ -45,10 +45,18 @@ const fs = require('fs');
 //     }
 // })
 
-fs.rmdir("./copy",{recursive:true}, function(err){
+// fs.rmdir("./copy",{recursive:true}, function(err){
+//     if(err){
+//         console.log(err.message)
+//     }else{
+//         console.log("removed!")
+//     }
+// })
+
+fs.readFile("doc.txt", "utf8", function(err,data){
     if(err){
         console.log(err.message)
     }else{
-        console.log("removed!")
+        console.log(data)
     }
 })
