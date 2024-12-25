@@ -16,7 +16,15 @@ const fs = require('fs');
 //     }
 // })
 
-fs.rename("test.txt","sample.txt",function(err){
+// fs.rename("test.txt","sample.txt",function(err){
+//     if(err){
+//         console.log(err)
+//     }else{
+//         console.log("Done!")
+//     }
+// })
+
+fs.copyFile("sample.txt","./copy/copy.txt",function(err){
     if(err){
         console.log(err)
     }else{
