@@ -10,3 +10,13 @@ npm commands
 
 dependencies -> means packages and dependent packages 
 dev dependencies -> these dependencies will used only during development once it is deployed it it useless
+
+
+<--scrips--> imp
+
+in the package json file there is a section called script 
+it has two default values 
+1.test 
+2.start
+3. if you want to create a script you need to define it in the script eg. "sample" and 
+    then give the command as "npm run sample" 

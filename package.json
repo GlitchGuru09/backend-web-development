@@ -4,7 +4,9 @@
   "description": "learning backend",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./script.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sample": "echo \"This is sample text\""
   },
   "author": "Shrey Vernekar",
   "license": "ISC",
