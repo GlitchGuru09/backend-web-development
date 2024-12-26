@@ -1,3 +1,12 @@
 learning basics of backend web development
 
 this line was written to test branch bwb-learning-basics
+
+npm commands 
+1. npm install or npm i packageName
+2. npm uninstall packageName
+3. npm i packageName@version
+
+
+dependencies -> means packages and dependent packages 
+dev dependencies -> 
