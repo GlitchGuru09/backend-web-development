@@ -9,4 +9,4 @@ npm commands
 
 
 dependencies -> means packages and dependent packages 
-dev dependencies -> 
+dev dependencies -> these dependencies will used only during development once it is deployed it it useless
