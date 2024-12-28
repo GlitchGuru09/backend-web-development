@@ -20,3 +20,15 @@ it has two default values
 2.start
 3. if you want to create a script you need to define it in the script eg. "sample" and 
     then give the command as "npm run sample" 
+
+
+<--express js-->
+express is a npm package 
+framework 
+it manages everything from the request and giving the response
+
+1.setting up basic express application
+2.routing 
+3.middleware
+4.request and response hangling 
+3.error hangling
